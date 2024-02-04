@@ -1,0 +1,280 @@
+
+#header
+{
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 1;
+    background-color: white !important;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    
+   
+   
+    
+}
+
+.nav-1>h3{
+    color: rgba(255, 81, 81, 1);
+}
+
+
+
+
+.nav-2>ul
+{
+    display: flex;
+    padding-top: 20px;
+    align-items: center !important;
+    list-style: none;
+}
+
+#hero-component
+{
+    background-image: url(reference-img/Rectangle\ 1.svg) !important;
+    
+    margin: auto;
+    border-radius: 10px;
+  width: 90vw !important;
+    background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+.img2
+{
+    width: 225px;
+}
+.img3{
+    width: 265px;
+}
+
+.img-text-1
+{
+    width: 180px;
+}
+
+.img-text-2
+{
+    width: 300px;
+}
+.img-text-3
+{
+    width: 250px;
+}
+.part-1-hero>div
+{
+    position: relative;
+    top: 100px;
+    left: 80px;
+
+}
+
+.part-1-hero>button
+{
+    background-color: #fe705d;
+    border: none;
+    height: 60px;
+    width: 150px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bolder;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    left: 80px;
+    font-size: medium;
+}
+
+
+.part-2-hero
+{
+    position: relative;
+    bottom: 5px;
+    left: 100px;
+}
+
+#collection-button
+{
+    background-color: #fe705d !important;
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0px 0px 20px 0.1px #fe705d;
+}
+
+#collection-components
+{
+    margin-top: 75px;
+}
+
+.collection-card
+{
+    width: 260px;
+    height: 340px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    display: inline-block !important;
+    
+}
+
+.price-button
+{
+    background-color: #fe705d !important;
+    color: rgba(255, 255, 255, 1) !important;
+
+}
+
+.collection-card>p
+{
+   
+    font-size: small;
+ 
+}
+
+.my-scrollable-cards
+{
+    overflow-x: scroll !important;
+   
+    width: 80vw;
+    margin: auto !important;
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    
+}
+.cards-arrange
+{
+    white-space: nowrap !important;
+}
+
+#grids-poster
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+    gap: 30px;
+    width: 65vw;
+    margin: auto;
+    grid-template-areas: 
+    "a c"
+    "b c";
+}
+
+.img-fit
+{
+    width: 100%;
+    height: 100%;
+}
+
+.poster-1
+{
+    grid-area: a;
+}
+.poster-2
+{
+    grid-area: b;
+}
+.poster-3
+{
+    grid-area: c;
+}
+
+.card-collections
+{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin: auto;
+    flex-wrap: wrap;
+}
+.links
+{
+    color: #fe705d;
+   
+}
+
+.list-footer
+{
+    list-style: none;
+}
+.list-footer>li
+{
+    padding: 10px;
+}
+
+#last-detailings
+{
+    background-color: #fbf3eb;
+}
+
+.footer-edits
+{
+    align-items: start;
+    width: 90vw;
+    
+}
+
+
+
+
+@media screen and (max-width: 650px)
+{
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-1{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .nav-2>ul
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    #hero-component
+    {
+        display: none;
+    }
+
+
+    .responsiveness
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-1{
+        display: flex;
+        align-items: start;
+    }
+
+
+
+    .links
+    {
+       padding: 120px;
+       margin: 0px;
+
+    }
+
+    .selected-cards
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+.access-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+}
